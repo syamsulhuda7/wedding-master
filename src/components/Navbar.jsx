@@ -32,7 +32,7 @@ export default function Navbar() {
           className="
     container flex items-center justify-between
     h-16 md:h-20
-    px-4 sm:px-6 lg:px-0
+    px-4 sm:px-6
   "
         >
           {/* Logo */}
