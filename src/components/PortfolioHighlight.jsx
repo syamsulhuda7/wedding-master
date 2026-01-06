@@ -44,7 +44,7 @@ export default function PortfolioHighlight() {
             pauseOnMouseEnter: true,
           }}
           loop
-          speed={900}
+          speed={3000}
         >
           {portfolio.map((item, i) => (
             <SwiperSlide key={item.id}>
