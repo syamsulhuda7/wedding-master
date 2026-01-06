@@ -23,7 +23,7 @@ export default function PortfolioHighlight() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 10, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-14 max-w-2xl"
         >
           <h2 className="text-3xl md:text-4xl">Wedding Portfolio</h2>
@@ -39,12 +39,12 @@ export default function PortfolioHighlight() {
           className="portfolio-swiper"
           navigation
           autoplay={{
-            delay: 30000,
+            delay: 3500,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
           loop
-          speed={3000}
+          speed={900}
         >
           {portfolio.map((item, i) => (
             <SwiperSlide key={item.id}>

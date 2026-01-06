@@ -44,7 +44,7 @@ export default function SignatureExperience() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 10 }}
+          transition={{ duration: 0.8 }}
           className="text-center mb-20"
         >
           <p className="text-sm tracking-widest text-primary uppercase">
@@ -70,7 +70,7 @@ export default function SignatureExperience() {
                 initial={{ opacity: 0, y: 50, scale: 0.95 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.2, duration: 10 }}
+                transition={{ delay: i * 0.2, duration: 0.7 }}
                 onClick={() => handleToggle(exp.id)}
                 className={`
                   relative flex items-start gap-6 rounded-xl p-8 shadow-xl cursor-pointer

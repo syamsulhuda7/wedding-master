@@ -12,7 +12,7 @@ export default function FinalCTA() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.2 }}
-          transition={{ duration: 10 }}
+          transition={{ duration: 2 }}
           className="h-full w-full bg-gradient-radial from-primary/20 via-transparent to-transparent"
         />
       </div>
@@ -22,7 +22,7 @@ export default function FinalCTA() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 10 }}
+          transition={{ duration: 1 }}
         >
           {/* Heading */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-primary">
@@ -66,7 +66,7 @@ export default function FinalCTA() {
                 }}
                 transition={{
                   repeat: Infinity,
-                  duration: 20 + i,
+                  duration: 6 + i,
                   ease: "easeInOut",
                   delay: i * 0.5,
                 }}

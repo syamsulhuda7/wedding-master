@@ -52,7 +52,7 @@ export default function ServicesPreview() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 10 }}
+                transition={{ delay: i * 0.15 }}
                 className={`
   group relative flex flex-col justify-between
   rounded-xl
