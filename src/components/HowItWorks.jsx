@@ -31,7 +31,7 @@ export default function HowItWorks() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 10 }}
           className="mb-12 text-center"
         >
           <p className="text-sm tracking-widest text-primary uppercase">
@@ -55,7 +55,7 @@ export default function HowItWorks() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.2 + i * 0.15 }}
+              transition={{ duration: 10 }}
               className="group relative rounded-lg border border-white/10 bg-dark/70 p-6 text-center hover:bg-dark/90 transition"
             >
               {/* Icon / Number */}

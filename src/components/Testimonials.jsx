@@ -27,7 +27,7 @@ export default function Testimonials() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 10 }}
           className="mb-20 max-w-2xl"
         >
           <span className="mb-4 inline-block text-xs tracking-[0.35em] text-primary">
@@ -50,7 +50,7 @@ export default function Testimonials() {
         <Swiper
           modules={[Autoplay]}
           autoplay={{
-            delay: 6000,
+            delay: 40000,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}

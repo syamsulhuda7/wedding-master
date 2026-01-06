@@ -18,7 +18,7 @@ export default function AboutPreview() {
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 10, ease: "easeOut" }}
             className="relative px-6"
           >
             {/* Vertical Accent Line */}
@@ -47,7 +47,7 @@ export default function AboutPreview() {
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 1, ease: "easeOut", delay: 0.15 }}
+            transition={{ duration: 10, ease: "easeOut", delay: 0.15 }}
             className="relative px-6"
           >
             {/* Label */}
